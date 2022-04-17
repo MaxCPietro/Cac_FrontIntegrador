@@ -14,35 +14,55 @@
 </head>
 
 <body>
-    <div class="container" style="border: blue dotted;">
-        <div class="row border bg-dark text-white">
-            <div class="col-sm-1 border border-dark">
+    <!--ENCABEZADO-->
+    <div class="container-fluid" style="border: blue dotted;">
+        <div class="row border bg-dark text-white p-0">
+            <div class="col-sm-1">
                 <img class="img-fluid" src="img/codoacodo.png" alt="Codo a Codo">
             </div>
-            <div class="col-sm-3 border border-dark">Conf Bs As</div>
-            <div class="col border border-secondary">La conferencia</div>
-            <div class="col border border-secondary">Los oradores</div>
-            <div class="col border border-secondary">El lugar y la fecha</div>
-            <div class="col border border-secondary">Conviérte en orador</div>
-            <div class="col border border-secondary">Comprar tickets</div>
+            <div class="col-sm-3">
+                <h5>Conf Bs As</h5>
+            </div>
+            <div class="col border border-danger p-0 m-0">La conferencia</div>
+            <div class="col text-muted border border-danger p-0 m-0">Los oradores</div>
+            <div class="col text-muted border border-danger p-0 m-0">El lugar y la fecha</div>
+            <div class="col text-muted border border-danger p-0 m-0">Conviérte en orador</div>
+            <div class="col text-success border border-danger p-0 m-0">Comprar tickets</div>
 
         </div>
     </div>
-    <div class="container" style="border: yellow dotted;">
+
+    <!--IMAGEN CASTILLO-->
+    <div class="container-fluid p-0" style="border: yellow dotted;">
         <div class="row">
             <img class="img-fluid" src="img/ba1.jpg" alt="Castillo">
+            <h2 class="float-end border border-danger">Conf Bs As</h2>
+            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+                experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del
+                evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. ¡Te
+                esperamos!</p>
+            <p><button type="button" class="btn btn-outline-secondary btn-sm">Quiero ser orador</button>
+                <button type="button" class="btn btn-success btn-sm text-white">Comprar Tickets</button></p>
+
         </div>
     </div>
 
-    <div class="container" style="border: blue dotted;">
-        <div class="row">CONOCÉ A LOS</div>
-        <div class="row">ORADORES</div>
+    <!--CARDS-->
+    <div class="container-fluid" style="border: blue dotted;">
+        <div class="row">
+            <h6 class="text-center text-black-50 m-0 p-0">CONOCÉ A LOS</h6>
+            <h2 class="text-center m-0 p-0">ORADORES</h2>
+        </div>
         <div class="row">
             <div class="col-sm-4 border border-danger">
                 <div class="card" style="width:300px">
                     <img class="card-img-top" src="img/steve.jpg" alt="Steve">
                     <div class="card-body">
                         <h4 class="card-title">Steve Jobs</h4>
+                        <p class="card-text">
+                            <span class="badge bg-warning text-body me-1">JavaScript</span>
+                            <span class="badge bg-info">React</span>
+                        </p>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem soluta
                             mollitia repellat pariatur eaque id autem eveniet sit velit non? Non nulla quaerat, delectus
                             totam suscipit aspernatur fugiat dolor voluptatem!</p>
@@ -54,6 +74,10 @@
                     <img class="card-img-top" src="img/bill.jpg" alt="Bill">
                     <div class="card-body">
                         <h4 class="card-title">Bill Gates</h4>
+                        <p class="card-text">
+                            <span class="badge bg-warning text-body me-1">JavaScript</span>
+                            <span class="badge bg-info">React</span>
+                        </p>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem soluta
                             mollitia repellat pariatur eaque id autem eveniet sit velit non? Non nulla quaerat, delectus
                             totam suscipit aspernatur fugiat dolor voluptatem!</p>
@@ -65,6 +89,10 @@
                     <img class="card-img-top" src="img/ada.jpeg" alt="Ada">
                     <div class="card-body">
                         <h4 class="card-title">Ada Lovelace</h4>
+                        <p class="card-text">
+                            <span class="badge bg-secondary me-1">JavaScript</span>
+                            <span class="badge bg-danger">React</span>
+                        </p>
                         <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem soluta
                             mollitia repellat pariatur eaque id autem eveniet sit velit non? Non nulla quaerat, delectus
                             totam suscipit aspernatur fugiat dolor voluptatem!</p>
@@ -74,12 +102,13 @@
         </div>
     </div>
 
-    <div class="container" style="border: red dotted;">
-        <div class="row border border-dark">
-            <div class="col-sm-6 border border-danger">
+    <!--HAWAII-->
+    <div class="container-fluid" style="border: red dotted;">
+        <div class="row">
+            <div class="col-sm-6 border p-0">
                 <img class="img-fluid" src="img/honolulu.jpg" alt="Honolulu">
             </div>
-            <div class="col-sm-6 border border-danger">
+            <div class="col-sm-6 border bg-dark text-white">
                 <h2>Bs As - Octubre</h2>
                 <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina en Estados
                     Unidos. Honolulu
@@ -89,43 +118,51 @@
                     formadouna
                     ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).
                 </p>
-                <p>Conocé mas</p>
+                <button type="button" class="btn btn-outline-secondary btn-sm text-white">Conocé mas</button>
             </div>
         </div>
     </div>
+
+    <!--FORMULARIO-->
     <div class="container" style="border: blue dotted;">
-        <div class="row">CONVIÉRTETE EN UN</div>
-        <div class="row">ORADOR</div>
-        <div class="row">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</div>
+        <h6 class="text-center text-black-50 m-0 p-0">CONVIÉRTETE EN UN</h6>
+        <h2 class="text-center m-0 p-0">ORADOR</h2>
+        <p class="text-center">Anótate como orador para dar una <abbr title="Charla Ignite">charla ignite</abbr>. Cuéntanos de qué quieres hablar!</p>
         <form>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" name="Name">
+                    <input type="text" class="form-control" placeholder="Nombre" name="Nombre">
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" name="LastName">
+                    <input type="text" class="form-control" placeholder="Apellido" name="Apellido">
                 </div>
-                <div class="row">
-                    <div class="col"><textarea class="form-control" rows="5" id="comment" name="text" placeholder="Sobre qué quieres hablar?"></textarea></div>
-                </div>
-                <div class="row">Recuerda incluir un título para tu charla</div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-
             </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <textarea class="form-control" name="Coments" id="Comments" rows="10" placeholder="¿Sobre qué quieres hablar?"></textarea>
+                    <p class="text-black-50">Recuerda incluir un título para tu charla</p>
+                </div>
+            </div>
+            <dvi class="row">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </dvi>
+
         </form>
     </div>
-    </div>
-    <div class="container" style="border: yellow dotted;">
-        <div class="row border">
-            <div class="col border border-dark">Preguntas Frecuentes</div>
-            <div class="col border border-dark">Contáctenos</div>
-            <div class="col border border-secondary">Prensa</div>
-            <div class="col border border-secondary">Conferencias</div>
-            <div class="col border border-secondary">Términos y condiciones</div>
-            <div class="col border border-secondary">Privacidad</div>
-            <div class="col border border-secondary">Estudiantes</div>
+
+    <!--FOOTER-->
+    <div class="container-fluid px-5 bg-secondary text-white" style="border: yellow dotted;">
+        <div class="row border p-0">
+            <div class="col border border-dark p-0">Preguntas Frecuentes</div>
+            <div class="col border border-dark p-0">Contáctenos</div>
+            <div class="col border border-dark p-0">Prensa</div>
+            <div class="col border border-dark p-0">Conferencias</div>
+            <div class="col border border-dark p-0">Términos y condiciones</div>
+            <div class="col border border-dark p-0">Privacidad</div>
+            <div class="col border border-dark p-0">Estudiantes</div>
         </div>
     </div>
+
 </body>
 
 </html>
