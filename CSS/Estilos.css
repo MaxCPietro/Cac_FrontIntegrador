@@ -1,0 +1,12 @@
+.Fondo {
+    position: relative;
+    width: auto;
+    }
+
+/* Bottom right text */
+.AbajoCentro {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    width: 80%;
+    }
